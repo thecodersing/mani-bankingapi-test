@@ -48,7 +48,13 @@ const data = {
     { transaction_id: "T002", account_id: "A0010", date: "2025-01-08", amount: 1000.00, type: "Credit", description: "Salary" },
     { transaction_id: "T003", account_id: "A0011", date: "2024-12-25", amount: 700.00, type: "Debit", description: "Restaurant" },
     { transaction_id: "T004", account_id: "A0020", date: "2025-03-01", amount: 2000.00, type: "Credit", description: "Refund" },
-    { transaction_id: "T005", account_id: "A0021", date: "2024-09-09", amount: 450.00, type: "Debit", description: "Online Shopping" }
+    { transaction_id: "T005", account_id: "A0021", date: "2024-09-09", amount: 450.00, type: "Credit", description: "Transfer from 123XXXXXXXXX10" },
+    { transaction_id: "T006", account_id: "B0021", date: "2026-02-12", amount: 100.00, type: "Debit", description: "Top-up to +1122XXXXXXX00" },
+    { transaction_id: "T007", account_id: "B0021", date: "2026-02-12", amount: 3000.00, type: "Credit", description: "Cash Deposit ATM" },
+    { transaction_id: "T008", account_id: "B0021", date: "2026-02-11", amount: 45.50, type: "Debit", description: "ECOMM Tran 613121" },
+    { transaction_id: "T009", account_id: "B0021", date: "2026-02-10", amount: 200.00, type: "Debit", description: "Transfer to 123XXXXXXXXX10" },
+    { transaction_id: "T010", account_id: "B0021", date: "2026-02-10", amount: 500.00, type: "Debit", description: "Cheque Clg MICR 1212100" },
+    { transaction_id: "T011", account_id: "B0021", date: "2026-02-09", amount: 75.00, type: "Debit", description: "POS - Max Clothings" },
   ],
   credit_cards: [
     { card_id: "CC001", customer_id: "C001", card_number: "4111111111111111", expiry_date: "12/27", card_type: "Visa", limit: 100000, balance: 25000.00 },
